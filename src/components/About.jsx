@@ -3,7 +3,11 @@ import about from '../assets/about.svg'
 const About = () => {
   return (
     <div className="sample-page bg-white grid grid-cols-1 sm:grid-cols-2 gap-x-16">
-      <img src={about} alt="about image" className="h-64 w-full" />
+      <img
+        src={about}
+        alt="about image"
+        className="h-64 w-full hidden md:block"
+      />
 
       <div>
         <h2 className="title">code and coffee</h2>
