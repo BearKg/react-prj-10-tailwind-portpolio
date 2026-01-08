@@ -9,7 +9,7 @@ export const links = [
   { id: nanoid(), href: "#projects", text: "projects" },
 ];
 
-import firstProjectImg from "../assets/first-project.png";
+import firstProjectImg from "./assets/first-project.png";
 
 export const skills = [
   {
