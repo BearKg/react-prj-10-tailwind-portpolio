@@ -9,6 +9,8 @@ export const links = [
   { id: nanoid(), href: "#projects", text: "projects" },
 ];
 
+import firstProjectImg from "../assets/first-project.png";
+
 export const skills = [
   {
     id: nanoid(),
@@ -69,7 +71,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../src/assets/first-project.png",
+    img: firstProjectImg,
     url: "https://nodeapp.vanhuynh-soft-store.store/",
     github: "https://nodeapp.vanhuynh-soft-store.store/",
     title: "Software Store",
