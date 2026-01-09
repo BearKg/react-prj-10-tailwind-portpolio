@@ -12,6 +12,7 @@ export const links = [
 import softStoreProjectImg from "./assets/SoftStore.png";
 import bookaholicProjectImg from "./assets/bookaholic.png";
 import jobTrackingProjectImg from "./assets/job-tracker.png";
+import userManagementProjectImg from "./assets/user-management-system.png";
 
 export const skills = [
   {
@@ -71,6 +72,14 @@ export const skills = [
 ];
 
 export const projects = [
+   {
+    id: nanoid(),
+    img: userManagementProjectImg,
+    url: "https://front-end-for-dynamodb-app.netlify.app/",
+    github: "https://github.com/BearKg/user-api-aws-lambda/",
+    title: "User Management System (API Gateway (v2) + Lambda)",
+    text: "An AWS CDK project that builds a user management system using AWS Lambda and Amazon API Gateway (v2).",
+  },
   {
     id: nanoid(),
     img: softStoreProjectImg,
