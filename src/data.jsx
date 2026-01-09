@@ -77,8 +77,8 @@ export const projects = [
     img: userManagementProjectImg,
     url: "https://front-end-for-dynamodb-app.netlify.app/",
     github: "https://github.com/BearKg/user-api-aws-lambda/",
-    title: "User Management System (API Gateway (v2) + Lambda)",
-    text: "An AWS CDK project that builds a user management system using AWS Lambda and Amazon API Gateway (v2).",
+    title: "User Management System (API Gateway (v2) + Lambda + DynamoDB)",
+    text: "An AWS CDK project that builds a user management system using AWS Lambda and Amazon API Gateway (v2) with DynamoDB as the database.",
   },
   {
     id: nanoid(),

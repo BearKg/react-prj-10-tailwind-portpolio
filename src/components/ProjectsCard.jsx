@@ -5,11 +5,11 @@ const ProjectsCard = ({ img, url, github, title, text }) => {
   return (
     <div className="bg-white rounded-lg shadow-md hover:shadow-2xl duration-300">
       {/* Image container */}
-      <div className="w-full h-[284px] overflow-hidden rounded-t-lg">
+      <div className="w-full h-[220px] overflow-hidden rounded-t-lg">
         <img
           src={img}
           alt="project image"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-fill"
         />
       </div>
 
