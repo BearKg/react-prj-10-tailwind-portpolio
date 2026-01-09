@@ -11,7 +11,7 @@ export const links = [
 
 import softStoreProjectImg from "./assets/SoftStore.png";
 import bookaholicProjectImg from "./assets/bookaholic.png";
-import jobTrackingProjectImg from "./assets/job-tracking.png";
+import jobTrackingProjectImg from "./assets/job-tracker.png";
 
 export const skills = [
   {
