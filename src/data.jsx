@@ -9,7 +9,9 @@ export const links = [
   { id: nanoid(), href: "#projects", text: "projects" },
 ];
 
-import firstProjectImg from "./assets/first-project.png";
+import softStoreProjectImg from "./assets/SoftStore.png";
+import bookaholicProjectImg from "./assets/bookaholic.png";
+import jobTrackingProjectImg from "./assets/job-tracking.png";
 
 export const skills = [
   {
@@ -71,7 +73,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: firstProjectImg,
+    img: softStoreProjectImg,
     url: "https://nodeapp.vanhuynh-soft-store.store/",
     github: "https://nodeapp.vanhuynh-soft-store.store/",
     title: "Software Store",
@@ -79,18 +81,18 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
+    img: bookaholicProjectImg,
+    url: "https://github.com/BearKg/Bookaholic",
+    github: "https://github.com/BearKg/Bookaholic",
     title: "Bookaholic",
     text: "An online bookstore designed with a clean and minimalist user interface, focusing on usability and simplicity. Users can browse books, add items to their cart, manage cart contents, and complete purchases through an integrated checkout system.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "third project",
+    img: jobTrackingProjectImg,
+    url: "https://github.com/BearKg/Bookaholic",
+    github: "https://github.com/BearKg/Bookaholic",
+    title: "Job Tracker",
     text: "A job tracking web application that helps users manage and organize job applications they have submitted. The system provides full CRUD (Create, Read, Update, Delete) functionality, allowing users to track job positions, companies, application status.",
   },
 ];
