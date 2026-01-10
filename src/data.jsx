@@ -13,6 +13,7 @@ import softStoreProjectImg from "./assets/SoftStore.png";
 import bookaholicProjectImg from "./assets/bookaholic.png";
 import jobTrackingProjectImg from "./assets/job-tracker.png";
 import userManagementProjectImg from "./assets/user-management-system.png";
+import productManagementProjectImg from "./assets/product-management.png";
 
 export const skills = [
   {
@@ -72,6 +73,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: productManagementProjectImg,
+    url: "https://aws-product-management-frontend.netlify.app",
+    github: "https://github.com/BearKg/aws-product-management-apigateway-lambda-s3",
+    title: "Product Management System (API Gateway (v2) + Lambda + DynamoDB + S3)",
+    text: "An AWS CDK project that builds a product management system using AWS Lambda and Amazon API Gateway (v2) with DynamoDB as the database and S3 for file storage.",
+  },
    {
     id: nanoid(),
     img: userManagementProjectImg,
