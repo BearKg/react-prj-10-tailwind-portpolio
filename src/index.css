@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 @layer components {
-    .sample-page {
-        @apply py-20 px-8;
-    }
-    .sample-frame {
-        @apply py-16 grid;
-    }
-    .title {
-        @apply text-3xl font-medium border-b border-t-gray-200 pb-5 capitalize
-    }
+  .sample-page {
+    @apply py-20 px-8;
+  }
+  .sample-frame {
+    @apply py-16 grid;
+  }
+  .title {
+    @apply text-3xl font-medium border-b border-t-gray-200 pb-5 capitalize;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

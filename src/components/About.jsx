@@ -2,7 +2,10 @@ import React from "react";
 import about from "../assets/about.svg";
 const About = () => {
   return (
-    <div className="sample-page bg-white grid grid-cols-1 sm:grid-cols-2 gap-x-16">
+    <div
+      className="sample-page bg-white grid grid-cols-1 sm:grid-cols-2 gap-x-16"
+      id="about"
+    >
       <img
         src={about}
         alt="about image"

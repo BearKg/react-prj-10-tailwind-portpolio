@@ -1,11 +1,11 @@
-import React from 'react'
-import hero from '../assets/hero.svg'
-import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
-import { FaSquareXTwitter } from 'react-icons/fa6'
+import React from "react";
+import hero from "../assets/hero.svg";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="py-24 bg-emerald-100">
+    <div className="py-24 bg-emerald-100" id="home">
       <div className="grid md:grid-cols-2 items-center gap-8 px-8">
         <div className="tracking-widest">
           <h1 className="text-7xl font-bold capitalize">I'm van</h1>
@@ -16,8 +16,12 @@ const Hero = () => {
             Turning Ideas Into Interactive Reality
           </p>
           <div className="flex gap-x-4 text-slate-500 mt-4">
-            <FaGithubSquare className="h-8 w-8 hover:text-slate-950 hover:cursor-pointer" />
-            <FaLinkedin className="h-8 w-8 hover:text-slate-950 hover:cursor-pointer" />
+            <a href="https://github.com/BearKg">
+              <FaGithubSquare className="h-8 w-8 hover:text-slate-950 hover:cursor-pointer" />
+            </a>
+            <a href="https://www.linkedin.com/in/vanhuynh03">
+              <FaLinkedin className="h-8 w-8 hover:text-slate-950 hover:cursor-pointer" />
+            </a>
             <FaSquareXTwitter className="h-8 w-8 hover:text-slate-950 hover:cursor-pointer" />
           </div>
         </div>
@@ -26,7 +30,7 @@ const Hero = () => {
         </article>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

@@ -113,4 +113,12 @@ export const projects = [
     title: "Job Tracker",
     text: "A job tracking web application that helps users manage and organize job applications they have submitted. The system provides full CRUD (Create, Read, Update, Delete) functionality, allowing users to track job positions, companies, application status.",
   },
+  {
+    id: nanoid(),
+    img: jobTrackingProjectImg,
+    url: "https://github.com/BearKg/Bookaholic",
+    github: "https://github.com/BearKg/Bookaholic",
+    title: "Job Tracker",
+    text: "A job tracking web application that helps users manage and organize job applications they have submitted. The system provides full CRUD (Create, Read, Update, Delete) functionality, allowing users to track job positions, companies, application status.",
+  },
 ];
