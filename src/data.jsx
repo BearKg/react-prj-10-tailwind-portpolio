@@ -14,6 +14,7 @@ import bookaholicProjectImg from "./assets/bookaholic.png";
 import jobTrackingProjectImg from "./assets/job-tracker.png";
 import userManagementProjectImg from "./assets/user-management-system.png";
 import productManagementProjectImg from "./assets/product-management.png";
+import chatApp from "./assets/chatapp.png";
 
 export const skills = [
   {
@@ -77,17 +78,27 @@ export const projects = [
     id: nanoid(),
     img: productManagementProjectImg,
     url: "https://aws-product-management-frontend.netlify.app",
-    github: "https://github.com/BearKg/aws-product-management-apigateway-lambda-s3",
-    title: "Product Management System (API Gateway (v2) + Lambda + DynamoDB + S3)",
+    github:
+      "https://github.com/BearKg/aws-product-management-apigateway-lambda-s3",
+    title:
+      "Product Management System (API Gateway (v2) + Lambda + DynamoDB + S3)",
     text: "An AWS CDK project that builds a product management system using AWS Lambda and Amazon API Gateway (v2) with DynamoDB as the database and S3 for file storage.",
   },
-   {
+  {
     id: nanoid(),
     img: userManagementProjectImg,
     url: "https://front-end-for-dynamodb-app.netlify.app/",
     github: "https://github.com/BearKg/user-api-aws-lambda/",
     title: "User Management System (API Gateway (v2) + Lambda + DynamoDB)",
     text: "An AWS CDK project that builds a user management system using AWS Lambda and Amazon API Gateway (v2) with DynamoDB as the database.",
+  },
+  {
+    id: nanoid(),
+    img: chatApp,
+    url: "https://github.com/BearKg/chat-app-socket.io-ts",
+    github: "https://github.com/BearKg/chat-app-socket.io-ts",
+    title: "Chat App (Socket.io)",
+    text: "A simple pet project built to explore real-time communication using WebSocket with Socket.io. The application focuses on understanding how data is transmitted between client and server in real time, rather than production-level features.",
   },
   {
     id: nanoid(),
